@@ -1,0 +1,2 @@
+#define GB32MEDIAFOUNDATIONBRIDGE_API __declspec(dllexport)
+#define GB32MEDIAFOUNDATIONBRIDGE_API __declspec(dllimport)

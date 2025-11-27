@@ -1,0 +1,9 @@
+﻿LIBRARY "GB32_Media_Foundation_Bridge"
+EXPORTS
+    MF_Init      = _MF_Init@4      @1
+    MF_Load      = _MF_Load@4      @3     ; your current one (takes String)
+    MF_Play      = _MF_Play@0      @4
+    MF_Pause     = _MF_Pause@0     @5
+    MF_Stop      = _MF_Stop@0      @6
+    MF_Shutdown  = _MF_Shutdown@0  @7
+    MF_Resize    = _MF_Resize@0    @8     ; ← ready for the future
